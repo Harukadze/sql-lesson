@@ -1,0 +1,69 @@
+﻿<Window x:Class="пр4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:пр4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Файл">
+                <MenuItem Header="_Exit" Click="Exit_Click"/>
+            </MenuItem>
+            <MenuItem Header="Настройки">
+                <MenuItem Header="_Background Color" Click="BackgroundColor_Click"/>
+            </MenuItem>
+            <MenuItem Header="О программе" Click="About_Click"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Content="Цвет:" Margin="5"/>
+                    <ComboBox Grid.Column="1" x:Name="colorComboBox" Margin="5">
+                        <ComboBoxItem Content="Черный" Background="Black" IsSelected="True" Tag="Black"/>
+                        <ComboBoxItem Content="Красный" Background="Red" Tag="Red"/>
+                        <ComboBoxItem Content="Синий" Background="Blue" Tag="Blue"/>
+                        <ComboBoxItem Content="Зеленый" Background="Green" Tag="Green"/>
+                        <ComboBoxItem Content="Желтый" Background="Yellow" Tag="Yellow"/>
+                    </ComboBox>
+                    <Label Grid.Column="2" Content="Размер:" Margin="5"/>
+                    <Slider Grid.Column="3" x:Name="sizeSlider" Minimum="1" Maximum="10" Value="5" Margin="5"/>
+                    <StackPanel Grid.Column="4" Orientation="Horizontal">
+                        <Label Content="Режим:" Margin="5"/>
+                        <RadioButton Content="Рисование" x:Name="drawingRadioButton" IsChecked="True" Margin="5"/>
+                        <RadioButton Content="Редактирование" x:Name="editingRadioButton" Margin="5"/>
+                        <RadioButton Content="Удаление" x:Name="deletingRadioButton" Margin="5"/>
+                    </StackPanel>
+                </Grid>
+                <InkCanvas Grid.Row="1" x:Name="canvas" Background="White" EditingMode="Ink"/>
+            </Grid>
+        </Menu>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar HorizontalAlignment="Left" Width="76">
+                <Button Command="ApplicationCommands.New" ToolTip="New"/>
+                <Button Command="ApplicationCommands.Open" ToolTip="Open"/>
+                <Button Command="ApplicationCommands.Save" ToolTip="Save"/>
+                <Separator/>
+                <Button Command="ApplicationCommands.Print" ToolTip="Print"/>
+                <Separator/>
+                <Button Command="ApplicationCommands.Cut" ToolTip="Cut"/>
+                <Button Command="ApplicationCommands.Copy" ToolTip="Copy"/>
+                <Button Command="ApplicationCommands.Paste" ToolTip="Paste"/>
+            </ToolBar>
+        </ToolBarTray>
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusText"/>
+            </StatusBarItem>
+        </StatusBar>
+    </DockPanel>
+</Window>

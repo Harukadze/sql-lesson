@@ -1,0 +1,66 @@
+﻿<Window x:Class="пр3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:пр3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="921.444">
+    <Grid Margin="0,0,-132,-3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+        <!-- Колонка со списком файлов -->
+        <ListBox Grid.Column="0" Margin="0,50,0,0">
+            <ListBoxItem>Файл 1</ListBoxItem>
+            <ListBoxItem>Файл 2</ListBoxItem>
+            <ListBoxItem>Файл 3</ListBoxItem>
+            <ListBoxItem>Файл 4</ListBoxItem>
+            <ListBoxItem>Файл 5</ListBoxItem>
+        </ListBox>
+
+        <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="10">
+            <Grid Margin="5">
+                <Rectangle Width="50" Height="50" Fill="Yellow"/>
+                <TextBlock Text="A" FontSize="24" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Grid>
+
+            <Grid Margin="5">
+                <Rectangle Width="50" Height="50" Fill="Red"/>
+                <TextBlock Text="B" FontSize="24" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Button Content="Сохранить" HorizontalAlignment="Left" Margin="16,-5,-32,0" VerticalAlignment="Top" Width="66"/>
+            </Grid>
+
+            <Grid Margin="5">
+                <Rectangle Width="50" Height="50" Fill="Green"/>
+                <TextBlock Text="C" FontSize="24" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Grid>
+
+            <Grid Margin="5">
+                <Rectangle Width="50" Height="50" Fill="Blue"/>
+                <TextBlock Text="D" FontSize="24" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Grid>
+
+            <Grid Margin="5">
+                <Rectangle Width="50" Height="50" Fill="Gray"/>
+                <TextBlock Text="E" FontSize="24" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Grid>
+
+            <Grid Margin="5">
+                <Rectangle Width="50" Height="50" Fill="Bisque"/>
+                <TextBlock Text="F" FontSize="24" Foreground="Black" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Grid>
+        </StackPanel>
+        <Button Content="Открыть" Grid.Column="1" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Закрыть" Grid.Column="1" HorizontalAlignment="Left" Margin="176,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="Обработать" Grid.Column="1" HorizontalAlignment="Left" Margin="267,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="О программе" Grid.Column="1" HorizontalAlignment="Left" Margin="368,10,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.157,1.098"/>
+        <Label Content="Последние документы
+" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

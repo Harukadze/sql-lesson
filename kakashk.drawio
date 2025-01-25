@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.8">
+  <diagram name="Страница — 1" id="fIGQO5RGtUhFwFofmyhY">
+    <mxGraphModel dx="472" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;curved=0;strokeWidth=2;targetPerimeterSpacing=0;sourcePerimeterSpacing=20;" edge="1" parent="1" source="6Md4fuc-r0Sgem4-IfuL-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-1" value="User&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="-220" width="70" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="75" as="sourcePoint" />
+            <mxPoint x="100" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6Md4fuc-r0Sgem4-IfuL-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-4" value="proverka na nadejnost" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-5" value="Заново генерировать" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="340" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-6" value="Save password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-7" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Password generetor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;cheto tam&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="25" y="180" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-25" value="Раздел справки (sovet na parrol)" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="269" y="170" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-29" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Ввод пользователя&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Критерии ввода пароля&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-33" value="&amp;nbsp;Strong password&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="6Md4fuc-r0Sgem4-IfuL-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="340" as="sourcePoint" />
+            <mxPoint x="230" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-36" value="Weak password&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="300" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-37" value="You sure?&lt;br&gt;(потверждение сох. пароля)" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-38" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1.013;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="6Md4fuc-r0Sgem4-IfuL-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="340" as="sourcePoint" />
+            <mxPoint x="340" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="340" />
+              <mxPoint x="500" y="330" />
+              <mxPoint x="540" y="220" />
+              <mxPoint x="290" y="290" />
+              <mxPoint x="570" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Md4fuc-r0Sgem4-IfuL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6Md4fuc-r0Sgem4-IfuL-37" target="6Md4fuc-r0Sgem4-IfuL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
